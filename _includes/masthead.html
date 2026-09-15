@@ -20,13 +20,6 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item language-switch">
-            {% if current_lang == "en" %}
-              <a href="{{ page.translation_url | default: '/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="切换到中文">中文</a>
-            {% else %}
-              <a href="{{ page.translation_url | default: '/en/' | relative_url }}" lang="en" hreflang="en" aria-label="Switch to English">English</a>
-            {% endif %}
-          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
