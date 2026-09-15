@@ -1,16 +1,14 @@
 ---
-permalink: /markdown/
-title: "指南"
+permalink: /en/markdown/
+title: "Guide"
 author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
-lang: zh
-locale: zh-CN
-translation_url: /en/markdown/
+
+lang: en
+locale: en-US
+translation_url: /markdown/
 ---
 
-<div class="notice">本栏目暂保留模板示例，尚未替换为我的个人内容。</div>
+<div class="notice">This section still contains the original template examples; they are not my personal projects, publications, or CV.</div>
 
 
 {% include toc %}

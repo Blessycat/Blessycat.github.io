@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /en/teaching/
+author_profile: true
+lang: en
+locale: en-US
+translation_url: /teaching/
+---
+
+<div class="notice">This section still contains the original template examples; they are not my personal projects, publications, or CV.</div>
+
+
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}

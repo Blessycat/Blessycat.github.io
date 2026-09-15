@@ -1,16 +1,15 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /en/cv/
 author_profile: true
-redirect_from:
-  - /resume
-lang: zh
-locale: zh-CN
-translation_url: /en/cv/
+
+lang: en
+locale: en-US
+translation_url: /cv/
 ---
 
-<div class="notice">本栏目暂保留模板示例，尚未替换为我的个人内容。</div>
+<div class="notice">This section still contains the original template examples; they are not my personal projects, publications, or CV.</div>
 
 
 {% include base_path %}

@@ -1,0 +1,8 @@
+{% assign current_lang = page.lang | default: "zh" %}
+{% assign current_locale = page.locale | default: "zh-CN" %}
+{% assign language_home = "/" %}
+{% if current_lang == "en" %}
+  {% assign current_locale = "en-US" %}
+  {% assign language_home = "/en/" %}
+{% endif %}
+{% assign localized_profile = site.data.profile[current_lang] %}
