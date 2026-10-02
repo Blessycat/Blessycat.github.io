@@ -1,5 +1,5 @@
 ---
-title: "SFT 的核心是目标定义：右移标签、回答掩码与有效 token 归一化"
+title: "SFT 的核心是目标定义：预测对齐、回答掩码与有效 token 归一化"
 date: 2026-10-02
 permalink: /posts/ai-infra/supervised-finetuning/
 excerpt: "逐位置检查监督微调的损失，把答案边界、标签右移和梯度权重变成可验证的约束。"

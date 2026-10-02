@@ -68,7 +68,7 @@ chat template 更基础：若推理端多一个换行，训练端少一个 assis
 $$
 w(y)=\prod_t\frac{p(y_t\mid y_{<t},x)}
 {\mu(y_t\mid y_{<t},x)}
-=\exp\left(\sum_t\log p_t-\log\mu_t\right).
+=\exp\left(\sum_t(\log p_t-\log\mu_t)\right).
 $$
 
 即使每一步只偏离一点，长序列的乘积也可能很大或很小。实际算法会使用截断、分段、逐 token 近似或拒绝异常样本等方式控制方差，但这些选择对偏差和目标都有影响。
