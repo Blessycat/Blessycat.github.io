@@ -73,8 +73,8 @@ def dispatch(action):
     if not isinstance(args, dict) or set(args) != {"a", "b"}:
         return {"ok": False, "error": "bad_arguments"}
     values = [args["a"], args["b"]]
-    if any(type(v) not in (int, float) or not math.isfinite(v)
-           or abs(v) > 1000000 for v in values):
+    if any(type(v) not in (int, float) or abs(v) > 1000000
+           or not math.isfinite(v) for v in values):
         return {"ok": False, "error": "bad_number"}
     return {"ok": True, "value": sum(values)}
 
