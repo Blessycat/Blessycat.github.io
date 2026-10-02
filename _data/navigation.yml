@@ -1,35 +1,23 @@
-# Preserve all original sections. CV remains the last content link.
+# Main navigation: writing, learning series, public projects, experiments, and CV.
 zh:
   - title: "博客"
     url: /year-archive/
-  - title: "AI Infra"
+  - title: "专题"
     url: /ai-infra/
-  - title: "论文"
-    url: /publications/
-  - title: "演讲"
-    url: /talks/
-  - title: "教学"
-    url: /teaching/
-  - title: "Projects"
+  - title: "项目"
     url: /portfolio/
-  - title: "指南"
-    url: /markdown/
-  - title: "CV"
+  - title: "实验室"
+    url: /ai-infra/labs/
+  - title: "简历"
     url: /cv/
 en:
   - title: "Blog"
     url: /en/year-archive/
-  - title: "AI Infra"
+  - title: "Series"
     url: /ai-infra/
-  - title: "Publications"
-    url: /en/publications/
-  - title: "Talks"
-    url: /en/talks/
-  - title: "Teaching"
-    url: /en/teaching/
   - title: "Projects"
     url: /en/portfolio/
-  - title: "Guide"
-    url: /en/markdown/
+  - title: "Labs"
+    url: /ai-infra/labs/
   - title: "CV"
     url: /en/cv/
