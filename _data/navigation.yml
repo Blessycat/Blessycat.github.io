@@ -1,5 +1,9 @@
 # Preserve all original sections. CV remains the last content link.
 zh:
+  - title: "博客"
+    url: /year-archive/
+  - title: "AI Infra"
+    url: /ai-infra/
   - title: "论文"
     url: /publications/
   - title: "演讲"
@@ -8,13 +12,15 @@ zh:
     url: /teaching/
   - title: "Projects"
     url: /portfolio/
-  - title: "博客"
-    url: /year-archive/
   - title: "指南"
     url: /markdown/
   - title: "CV"
     url: /cv/
 en:
+  - title: "Blog"
+    url: /en/year-archive/
+  - title: "AI Infra"
+    url: /ai-infra/
   - title: "Publications"
     url: /en/publications/
   - title: "Talks"
@@ -23,8 +29,6 @@ en:
     url: /en/teaching/
   - title: "Projects"
     url: /en/portfolio/
-  - title: "Blog"
-    url: /en/year-archive/
   - title: "Guide"
     url: /en/markdown/
   - title: "CV"
