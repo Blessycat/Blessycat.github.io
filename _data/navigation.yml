@@ -1,23 +1,15 @@
-# Main navigation: writing, learning series, public projects, experiments, and CV.
+# Main navigation: blog, public projects, and CV.
 zh:
   - title: "博客"
     url: /year-archive/
-  - title: "专题"
-    url: /ai-infra/
   - title: "项目"
     url: /portfolio/
-  - title: "实验室"
-    url: /ai-infra/labs/
   - title: "简历"
     url: /cv/
 en:
   - title: "Blog"
     url: /en/year-archive/
-  - title: "Series"
-    url: /ai-infra/
   - title: "Projects"
     url: /en/portfolio/
-  - title: "Labs"
-    url: /ai-infra/labs/
   - title: "CV"
     url: /en/cv/
